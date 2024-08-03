@@ -1,0 +1,54 @@
+* {
+  box-sizing: border-box;
+    margin: 0;
+
+body {
+  background-color: lightblue;
+}
+
+.container {
+display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: green;
+    width: 100%;
+  }
+
+.content {
+background-color: lightblue;
+    justify-content: center;
+    align-items: center;
+    height: 450px;
+    width: 50%;
+    border-radius: 15px;
+  }
+
+.to_do_app {
+    display: inline-flex;
+    background-color: purple;
+    height: 50px;
+
+  }
+
+.rounded {
+border-radius: 20px;
+  
+}
+
+
+.add_task {
+background-color: brown;
+
+  }  
+
+.add_task:hover {
+
+    cursor: pointer;
+    background-color: lightblue;
+
+  }
+
+.text {
+width:375px;
+  }
